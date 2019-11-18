@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>PariZen</title>   
+        <meta charset="UTF-8" />
+        <meta name="description" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        {% block css %}{{ encore_entry_link_tags('app') }}{% endblock %}
+    </head>
+    <body>
+        {% block header %}
+            {% include 'partials/header.html.twig' %}
+        {% endblock %}
+
+        {% block content %}
+            {# Sorry, no content #}
+s        {% endblock %}
+
+        {# {% block footer %}
+            FOOTER
+            {# {% include 'partial/footer.twig' %} #}
+        {# {% endblock %} #}
+
+        {% block js %}
+            {{ encore_entry_script_tags('app') }}
+            {# {{ source('./assets/icons/symbol-defs.svg') }} #}
+        {% endblock %}
+    </body>
+</html>

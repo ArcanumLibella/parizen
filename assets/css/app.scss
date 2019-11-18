@@ -1,0 +1,16 @@
+@import 'utils/fonts';
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'commons/reset';
+@import 'commons/icons';
+@import 'commons/typography';
+@import 'commons/ctas';
+
+
+@import 'components/card';
+@import 'components/menu';
+
+body {
+    background-color: $midGreen;
+}
